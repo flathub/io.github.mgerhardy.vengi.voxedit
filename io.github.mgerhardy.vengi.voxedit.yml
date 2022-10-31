@@ -12,9 +12,9 @@ finish-args:
   - --socket=fallback-x11
   - --filesystem=home
 cleanup:
-    - /include
-    - /share/man
-    - /lib/pkgconfig
+  - /include
+  - /share/man
+  - /lib/pkgconfig
 
 modules:
   - name: opencl-headers
@@ -49,11 +49,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/mgerhardy/vengi
-        tag: v0.0.21
-        commit: 8fa867ccce9ca03b5011fc645cf38ab279d93d2c
+        tag: v0.0.22
+        commit: 4b21eee0f21369ff5dccc755dd94ae61221b8abb
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
-      - type: patch
-        path: appdata.patch
-        use-git: true
