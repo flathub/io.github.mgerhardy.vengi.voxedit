@@ -5,6 +5,7 @@ sdk: org.freedesktop.Sdk
 command: vengi-voxedit
 rename-icon: voxedit-icon
 rename-desktop-file: vengi-voxedit.desktop
+rename-appdata-file: io.github.vengi-voxel.vengi.voxedit.metainfo.xml
 finish-args:
   - --device=dri
   - --share=ipc
