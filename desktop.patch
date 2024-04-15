@@ -1,0 +1,31 @@
+Date: Mon, 15 Apr 2024 10:53:32 +0200
+Subject: [PATCH 2/2] Add Desktop launchable.
+
+---
+ .../linux/io.github.vengi-voxel.vengi.voxbrowser.metainfo.xml    | 1 +
+ .../linux/io.github.vengi-voxel.vengi.voxedit.metainfo.xml       | 1 +
+ 2 files changed, 2 insertions(+)
+
+diff --git a/contrib/installer/linux/io.github.vengi-voxel.vengi.voxbrowser.metainfo.xml b/contrib/installer/linux/io.github.vengi-voxel.vengi.voxbrowser.metainfo.xml
+index 27ce1639b..12d497f69 100644
+--- a/contrib/installer/linux/io.github.vengi-voxel.vengi.voxbrowser.metainfo.xml
++++ b/contrib/installer/linux/io.github.vengi-voxel.vengi.voxbrowser.metainfo.xml
+@@ -36,4 +36,5 @@
+   <url type="bugtracker">https://github.com/vengi-voxel/vengi/issues</url>
+   <url type="donation">https://www.paypal.me/MartinGerhardy</url>
+   <content_rating type="oars-1.1"/>
++  <launchable type="desktop-id">voxbrowser.desktop</launchable>
+ </component>
+diff --git a/contrib/installer/linux/io.github.vengi-voxel.vengi.voxedit.metainfo.xml b/contrib/installer/linux/io.github.vengi-voxel.vengi.voxedit.metainfo.xml
+index 86a59bf9b..31cd75cb0 100644
+--- a/contrib/installer/linux/io.github.vengi-voxel.vengi.voxedit.metainfo.xml
++++ b/contrib/installer/linux/io.github.vengi-voxel.vengi.voxedit.metainfo.xml
+@@ -120,4 +120,5 @@
+   <url type="bugtracker">https://github.com/vengi-voxel/vengi/issues</url>
+   <url type="donation">https://www.paypal.me/MartinGerhardy</url>
+   <content_rating type="oars-1.1"/>
++  <launchable type="desktop-id">voxedit.desktop</launchable>
+ </component>
+-- 
+2.40.1
+
