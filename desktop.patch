@@ -1,0 +1,30 @@
+Date: Fri, 10 May 2024 13:13:13 +0200
+Subject: [PATCH] LINUX: Fix desktop ID.
+
+---
+ .../linux/io.github.vengi_voxel.vengi.voxbrowser.metainfo.xml   | 2 +-
+ .../linux/io.github.vengi_voxel.vengi.voxedit.metainfo.xml      | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/contrib/installer/linux/io.github.vengi_voxel.vengi.voxbrowser.metainfo.xml b/contrib/installer/linux/io.github.vengi_voxel.vengi.voxbrowser.metainfo.xml
+index 618e756c5..ce4852a6f 100644
+--- a/contrib/installer/linux/io.github.vengi_voxel.vengi.voxbrowser.metainfo.xml
++++ b/contrib/installer/linux/io.github.vengi_voxel.vengi.voxbrowser.metainfo.xml
+@@ -42,5 +42,5 @@
+   <url type="bugtracker">https://github.com/vengi-voxel/vengi/issues</url>
+   <url type="donation">https://www.paypal.me/MartinGerhardy</url>
+   <content_rating type="oars-1.1"/>
+-  <launchable type="desktop-id">voxbrowser.desktop</launchable>
++  <launchable type="desktop-id">vengi-voxbrowser.desktop</launchable>
+ </component>
+diff --git a/contrib/installer/linux/io.github.vengi_voxel.vengi.voxedit.metainfo.xml b/contrib/installer/linux/io.github.vengi_voxel.vengi.voxedit.metainfo.xml
+index 028b2a975..086ac1208 100644
+--- a/contrib/installer/linux/io.github.vengi_voxel.vengi.voxedit.metainfo.xml
++++ b/contrib/installer/linux/io.github.vengi_voxel.vengi.voxedit.metainfo.xml
+@@ -126,5 +126,5 @@
+   <url type="bugtracker">https://github.com/vengi-voxel/vengi/issues</url>
+   <url type="donation">https://www.paypal.me/MartinGerhardy</url>
+   <content_rating type="oars-1.1"/>
+-  <launchable type="desktop-id">voxedit.desktop</launchable>
++  <launchable type="desktop-id">vengi-voxedit.desktop</launchable>
+ </component>
