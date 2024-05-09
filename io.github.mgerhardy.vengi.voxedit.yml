@@ -1,10 +1,11 @@
 app-id: io.github.mgerhardy.vengi.voxedit
 runtime: org.freedesktop.Platform
-runtime-version: 22.08
+runtime-version: 23.08
 sdk: org.freedesktop.Sdk
 command: vengi-voxedit
 rename-icon: voxedit-icon
 rename-desktop-file: vengi-voxedit.desktop
+rename-appdata-file: io.github.vengi_voxel.vengi.voxedit.metainfo.xml
 finish-args:
   - --device=dri
   - --share=ipc
@@ -49,8 +50,10 @@ modules:
     sources:
       - type: git
         url: https://github.com/mgerhardy/vengi
-        tag: v0.0.27
-        commit: c2d0766b0350c6c97e3133cdbe3bd117a0007e1a
+        tag: v0.0.31
+        commit: cd2d0392d81bfaa5fccbac4d953ffa7131d5db7a
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
+      - type: patch
+        path: desktop.patch
