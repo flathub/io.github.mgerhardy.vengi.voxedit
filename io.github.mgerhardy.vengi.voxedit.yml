@@ -50,10 +50,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/mgerhardy/vengi
-        tag: v0.0.31
-        commit: cd2d0392d81bfaa5fccbac4d953ffa7131d5db7a
+        tag: v0.0.32
+        commit: cfd5b3ca339cc42cbdc20a23eefe93b5d0fd2c24
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
-      - type: patch
-        path: desktop.patch
