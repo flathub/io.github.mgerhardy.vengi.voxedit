@@ -41,19 +41,16 @@ modules:
     config-opts:
       - -DUNITTESTS=OFF
       - -DVISUALTESTS=OFF
-      - -DGAMES=OFF
-      - -DMAPVIEW=OFF
-      - -DAIDEBUG=OFF
       - -DVOXCONVERT=OFF
       - -DTHUMBNAILER=OFF
       - -DPKGDATADIR=/app/share/vengi/
     sources:
       - type: git
         url: https://github.com/mgerhardy/vengi
-        tag: v0.0.31
-        commit: cd2d0392d81bfaa5fccbac4d953ffa7131d5db7a
+        tag: v0.0.34
+        commit: 180c5574c08a8d25c47bdc4cf012fcf04c623d60
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
       - type: patch
-        path: desktop.patch
+        path: metainfo.patch
