@@ -47,8 +47,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/mgerhardy/vengi
-        tag: v0.2.1
-        commit: 0d22d30ac26a697cbbaff90a5f64331b17fca4ae
+        tag: v0.3.0
+        commit: 80bf1329b5413d7c77fb31d0831e45c83549f915
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
