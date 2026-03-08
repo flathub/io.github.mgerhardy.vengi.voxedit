@@ -1,6 +1,6 @@
 app-id: io.github.mgerhardy.vengi.voxedit
 runtime: org.freedesktop.Platform
-runtime-version: 23.08
+runtime-version: 25.08
 sdk: org.freedesktop.Sdk
 command: vengi-voxedit
 rename-icon: voxedit-icon
@@ -30,6 +30,9 @@ modules:
 
   - name: libdwarf
     buildsystem: meson
+    build-options:
+      cflags: -Wno-error=calloc-transposed-args
+
     sources:
       - type: git
         url: https://github.com/davea42/libdwarf-code/
