@@ -12,6 +12,8 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --filesystem=home
+  # Required for downloading scripts from voxedit.
+  - --share=network
 cleanup:
   - /include
   - /share/man
