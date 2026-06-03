@@ -47,6 +47,7 @@ modules:
       - -DVOXCONVERT=OFF
       - -DTHUMBNAILER=OFF
       - -DPKGDATADIR=/app/share/vengi/
+      - -DCMAKE_BUILD_TYPE=RelWithDebInfo
     sources:
       - type: git
         url: https://github.com/mgerhardy/vengi
